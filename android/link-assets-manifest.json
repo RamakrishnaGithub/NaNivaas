@@ -1,0 +1,37 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Nunito-Bold.ttf",
+      "sha1": "4a505b70c66f48130872ed50b87e4cbebb1f2fbc"
+    },
+    {
+      "path": "assets/fonts/Nunito-Light.ttf",
+      "sha1": "250cafb545270387998ea2de3b4de5b9b496605c"
+    },
+    {
+      "path": "assets/fonts/Nunito-Medium.ttf",
+      "sha1": "6602087f0730c0980af15231022cf3471c8371f0"
+    },
+    {
+      "path": "assets/fonts/Nunito-Regular.ttf",
+      "sha1": "1061e4e1867b95fa1353d449970e3dcb23da5f40"
+    },
+    {
+      "path": "assets/fonts/Poppins-Bold.ttf",
+      "sha1": "875cf0cecd647bcf22e79d633d868c1b1ec98dfa"
+    },
+    {
+      "path": "assets/fonts/Poppins-Light.ttf",
+      "sha1": "e247a92158e112f8bf7b638c8d95381d66b00dbb"
+    },
+    {
+      "path": "assets/fonts/Poppins-Medium.ttf",
+      "sha1": "283f21b44efbdbf276ba802be2d949a36bbc4233"
+    },
+    {
+      "path": "assets/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    }
+  ]
+}
