@@ -17,8 +17,6 @@ import {mockListings, Listing} from '../../data/mockData';
 import ReactNativeModal from 'react-native-modal';
 
 const SearchScreen = () => {
-  const [isOpenRoom, setIsOpenRoom] = React.useState(false);
-  const [modalDetails, setModalDetails] = React.useState<Listing | null>(null);
 
   return (
     <SafeAreaView style={{flex:1,marginTop: Platform.OS === 'android' ? StatusBar.currentHeight ?? 0 : StatusBar.currentHeight ?? 0}}>
@@ -30,10 +28,6 @@ const SearchScreen = () => {
           renderItem={({item}) => (
             <RoomCard
               item={item}
-              onPress={() => {
-                setIsOpenRoom(true);
-                setModalDetails(item);
-              }}
             />
           )}
           showsVerticalScrollIndicator={false}
@@ -63,26 +57,6 @@ const SearchScreen = () => {
           )}
         />
       </View>
-      <ReactNativeModal
-        isVisible={isOpenRoom}
-        animationIn={"slideInUp"}
-        animationOut={"slideOutRight"}
-        backdropOpacity={0.5}
-        onBackdropPress={() => setIsOpenRoom(false)}
-        onBackButtonPress={() => setIsOpenRoom(false)}
-        useNativeDriver
-        style={{justifyContent: 'center', alignItems: 'center'}}>
-        <View style={styles.modalContent}>
-          {modalDetails && (
-            <>
-              <Button title="Close" onPress={() => setIsOpenRoom(false)} />
-              <Text style={styles.modalText}>
-                {modalDetails.name} - {modalDetails.rating}
-              </Text>
-            </>
-          )}
-        </View>
-      </ReactNativeModal>
     </SafeAreaView>
   );
 };

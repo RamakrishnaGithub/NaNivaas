@@ -120,15 +120,15 @@ export const mockListings: Listing[] = [
     rating: 4.2,
     reviews: [
       {
-        userId: 'u1',
-        userName: 'Rahul Sharma',
+        userId: '68470aacd0222b77b929961b',
+        userName: 'ram',
         rating: 4,
         comment: 'Good facilities and food. Location is convenient for IT professionals.',
         date: '2025-03-15'
       },
       {
-        userId: 'u2',
-        userName: 'Akash Patel',
+        userId: '684e6f95fdade6232ed70262',
+        userName: 'madhav',
         rating: 5,
         comment: 'Best PG I\'ve stayed at. Clean rooms and responsive management.',
         date: '2025-02-22'
@@ -568,3 +568,333 @@ export const ListingGender = [
   {label: 'Female', value: 'female'},
   {label: 'Unisex', value: 'unisex'},
 ]
+
+
+
+// {
+//   "name": "Comfort Hostel for Women",
+//   "type": "hostel",
+//   "gender": "female",
+//   "location": {
+//     "address": "45 Park Avenue, HSR Layout",
+//     "city": "Bangalore",
+//     "state": "Karnataka",
+//     "coordinates": {
+//       "lat": 12.9141,
+//       "lng": 77.6466
+//     }
+//   },
+//   "images": [
+//     "https://images.unsplash.com/photo-1596900779744-2bdc4a90509a?q=80&w=988&auto=format&fit=crop",
+//     "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=958&auto=format&fit=crop",
+//     "https://images.unsplash.com/photo-1596900779744-2bdc4a90509a?q=80&w=988&auto=format&fit=crop",
+//     "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=958&auto=format&fit=crop"
+//   ],
+//   "description": "Safe and secure hostel exclusively for women with all modern amenities. Located in a peaceful neighborhood with good connectivity.",
+//   "price": {
+//     "monthly": 8500,
+//     "security": 9000
+//   },
+//   "amenities": [
+//     "wifi",
+//     "food",
+//     "tv",
+//     "laundry",
+//     "cleaning",
+//     "security",
+//     "study_room",
+//     "common_area"
+//   ],
+//   "bedOptions": [
+//     {
+//       "type": "Double Sharing Room",
+//       "price": 8500,
+//       "available": 6,
+//       "total": 12
+//     },
+//     {
+//       "type": "Four Sharing Room",
+//       "price": 6500,
+//       "available": 8,
+//       "total": 20
+//     }
+//   ],
+//   "rating": 4.5,
+//   "reviews": [
+//     {
+//       "userId": "684e6fabfdade6232ed70264",
+//       "userName": "syam",
+//       "rating": 5,
+//       "comment": "Very safe and comfortable. The staff is helpful and food is good.",
+//       "date": "2025-04-02"
+//     },
+//     {
+//       "userId": "684e6fbefdade6232ed70266",
+//       "userName": "nagesh",
+//       "rating": 4,
+//       "comment": "Clean rooms and good study environment. Would recommend.",
+//       "date": "2025-03-10"
+//     }
+//   ],
+//   "rules": [
+//     "Entry closed after 10 PM",
+//     "No male visitors allowed beyond reception",
+//     "Mandatory attendance every evening",
+//     "Cooking not allowed in rooms"
+//   ],
+//   "contactInfo": {
+//     "name": "Lakshmi Devi",
+//     "phone": "+91-8765432109",
+//     "email": "comfort.hostel@example.com"
+//   }
+// }
+
+
+// {
+//   "name": "Urban Stay PG",
+//   "type": "pg",
+//   "gender": "male",
+//   "location": {
+//     "address": "123 Main Street, Koramangala",
+//     "city": "Bangalore",
+//     "state": "Karnataka",
+//     "coordinates": {
+//       "lat": 12.9352,
+//       "lng": 77.6245
+//     }
+//   },
+//   "images": [
+//     "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1171&auto=format&fit=crop",
+//     "https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=1157&auto=format&fit=crop",
+//     "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1170&auto=format&fit=crop",
+//     "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1169&auto=format&fit=crop"
+//   ],
+//   "description": "Modern and comfortable PG accommodation for men in the heart of Koramangala. All basic amenities provided with clean rooms and good food.",
+//   "price": {
+//     "monthly": 9500,
+//     "security": 10000
+//   },
+//   "amenities": [
+//     "wifi",
+//     "food",
+//     "ac",
+//     "laundry",
+//     "cleaning",
+//     "power_backup",
+//     "security"
+//   ],
+//   "bedOptions": [
+//     {
+//       "type": "Single Bed Room",
+//       "price": 12000,
+//       "available": 2,
+//       "total": 5
+//     },
+//     {
+//       "type": "Double Sharing Room",
+//       "price": 9500,
+//       "available": 4,
+//       "total": 10
+//     },
+//     {
+//       "type": "Triple Sharing Room",
+//       "price": 7500,
+//       "available": 6,
+//       "total": 15
+//     }
+//   ],
+//   "rating": 4.2,
+//   "reviews": [
+//     {
+//       "userId": "68470aacd0222b77b929961b",
+//       "userName": "ram",
+//       "rating": 4,
+//       "comment": "Good facilities and food. Location is convenient for IT professionals.",
+//       "date": "2025-03-15"
+//     },
+//     {
+//       "userId": "684e6f95fdade6232ed70262",
+//       "userName": "madhav",
+//       "rating": 5,
+//       "comment": "Best PG I've stayed at. Clean rooms and responsive management.",
+//       "date": "2025-02-22"
+//     }
+//   ],
+//   "rules": [
+//     "No smoking inside the building",
+//     "Guests allowed only in common areas",
+//     "Quiet hours from 11 PM to 6 AM",
+//     "No alcohol permitted on premises"
+//   ],
+//   "contactInfo": {
+//     "name": "Suresh Kumar",
+//     "phone": "+91-9876543210",
+//     "email": "urban.stay@example.com"
+//   }
+// }
+
+
+
+// {
+//   "name": "TechHub Co-living Space",
+//   "type": "coliving",
+//   "gender": "unisex",
+//   "location": {
+//     "address": "78 Tech Park Road, Whitefield",
+//     "city": "Bangalore",
+//     "state": "Karnataka",
+//     "coordinates": {
+//       "lat": 12.9698,
+//       "lng": 77.7499
+//     }
+//   },
+//   "images": [
+//     "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1170&auto=format&fit=crop",
+//     "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1170&auto=format&fit=crop",
+//     "https://images.unsplash.com/photo-1486304873000-235643847519?q=80&w=1169&auto=format&fit=crop",
+//     "https://images.unsplash.com/photo-1628744448840-b38439a148a3?q=80&w=1170&auto=format&fit=crop"
+//   ],
+//   "description": "Modern co-living space designed for tech professionals and entrepreneurs. Features workspace, high-speed internet, and community events.",
+//   "price": {
+//     "monthly": 15000,
+//     "security": 20000
+//   },
+//   "amenities": [
+//     "wifi",
+//     "ac",
+//     "tv",
+//     "laundry",
+//     "cleaning",
+//     "parking",
+//     "gym",
+//     "common_area",
+//     "power_backup",
+//     "security"
+//   ],
+//   "bedOptions": [
+//     {
+//       "type": "Private Room",
+//       "price": 18000,
+//       "available": 3,
+//       "total": 8
+//     },
+//     {
+//       "type": "Shared Room (2 Person)",
+//       "price": 15000,
+//       "available": 5,
+//       "total": 10
+//     }
+//   ],
+//   "rating": 4.7,
+//   "reviews": [
+//     {
+//       "userId": "684e6fe2fdade6232ed70268",
+//       "userName": "siva",
+//       "rating": 5,
+//       "comment": "Perfect for remote workers. Great community and amenities.",
+//       "date": "2025-04-15"
+//     },
+//     {
+//       "userId": "684e7001fdade6232ed7026a",
+//       "userName": "naresh",
+//       "rating": 4.5,
+//       "comment": "High-quality facilities and well-maintained. Community events are a plus.",
+//       "date": "2025-03-28"
+//     }
+//   ],
+//   "rules": [
+//     "Respect quiet hours (11 PM - 7 AM)",
+//     "Keep common spaces clean",
+//     "Register guests at reception",
+//     "No pets allowed"
+//   ],
+//   "contactInfo": {
+//     "name": "Ravi Shankar",
+//     "phone": "+91-7654321098",
+//     "email": "techhub.coliving@example.com"
+//   }
+// }
+
+
+// {
+//   "name": "Green View PG",
+//   "type": "pg",
+//   "gender": "female",
+//   "location": {
+//     "address": "234 Garden Road, JP Nagar",
+//     "city": "Bangalore",
+//     "state": "Karnataka",
+//     "coordinates": {
+//       "lat": 12.9107,
+//       "lng": 77.5928
+//     }
+//   },
+//   "images": [
+//     "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1174&auto=format&fit=crop",
+//     "https://images.unsplash.com/photo-1595524106430-66f4c1be52e4?q=80&w=1171&auto=format&fit=crop",
+//     "https://images.unsplash.com/photo-1612320582996-df6ca81ac09a?q=80&w=1170&auto=format&fit=crop",
+//     "https://images.unsplash.com/photo-1592928302636-c83cf1e1c887?q=80&w=1170&auto=format&fit=crop"
+//   ],
+//   "description": "Peaceful PG accommodation for women with garden views. Homely environment with nutritious food and essential amenities.",
+//   "price": {
+//     "monthly": 8000,
+//     "security": 8000
+//   },
+//   "amenities": [
+//     "wifi",
+//     "food",
+//     "tv",
+//     "laundry",
+//     "cleaning",
+//     "security",
+//     "common_area"
+//   ],
+//   "bedOptions": [
+//     {
+//       "type": "Single Bed Room",
+//       "price": 10000,
+//       "available": 1,
+//       "total": 3
+//     },
+//     {
+//       "type": "Double Sharing Room",
+//       "price": 8000,
+//       "available": 3,
+//       "total": 8
+//     },
+//     {
+//       "type": "Triple Sharing Room",
+//       "price": 6500,
+//       "available": 5,
+//       "total": 12
+//     }
+//   ],
+//   "rating": 4.3,
+//   "reviews": [
+//     {
+//       "userId": "684e7014fdade6232ed7026c",
+//       "userName": "kamal",
+//       "rating": 4,
+//       "comment": "Clean and comfortable. Food is homely and tasty.",
+//       "date": "2025-02-28"
+//     },
+//     {
+//       "userId": "684e7028fdade6232ed7026e",
+//       "userName": "arjun",
+//       "rating": 4.5,
+//       "comment": "Good location and peaceful environment. Management is responsive.",
+//       "date": "2025-01-15"
+//     }
+//   ],
+//   "rules": [
+//     "Entry closed after 9:30 PM",
+//     "No visitors in rooms",
+//     "Food timings strictly followed",
+//     "Keep rooms clean and tidy"
+//   ],
+//   "contactInfo": {
+//     "name": "Anita Patel",
+//     "phone": "+91-9876543211",
+//     "email": "green.view@example.com"
+//   }
+// }

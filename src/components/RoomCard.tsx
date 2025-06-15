@@ -12,13 +12,20 @@ import Entypo from 'react-native-vector-icons/Entypo';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import {moderateScale, scale, verticalScale} from 'react-native-size-matters';
 import { Listing } from '../data/mockData';
+import { useNavigation } from '@react-navigation/native';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+
+
+type RootStackParamList = {
+  ProductScreen: { item: Listing }; // Add other screens and their params here if needed
+};
 
 type RoomCardProps = {
   item:  Listing; 
-  onPress?: () => void; 
 };
 
-const RoomCard: FC<RoomCardProps> = ({item,onPress}) => {
+const RoomCard: FC<RoomCardProps> = ({item}) => {
+  const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList, 'ProductScreen'>>();
   const availalbleBedOptions = item?.bedOptions?.reduce(
     (sum: number, option: {available: number}) => sum + option.available,
     0,
@@ -33,7 +40,7 @@ const RoomCard: FC<RoomCardProps> = ({item,onPress}) => {
     <>
       <TouchableOpacity
         style={styles.container}
-        onPress={onPress}>
+        onPress={() => navigation.navigate("ProductScreen",{item})}>
         {/* image */}
         <View style={styles.imageContainer}>
           <ImageBackground
